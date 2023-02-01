@@ -119,7 +119,7 @@ public class Calculator extends JFrame {
                         equation.setForeground(Color.white);
                         result.setText("");
                     }
-                    case "Del" -> {
+                    case "Del", "CE" -> {
                         equation.setText(equation.getText().substring(0, equation.getText().length() - 1));
                         equation.setForeground(Color.white);
                     }
